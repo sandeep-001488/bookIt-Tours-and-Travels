@@ -50,6 +50,7 @@ export default function Navbar() {
             <div className="hidden md:flex items-center space-x-6">
               <a
                 href="tel:+918001234567"
+                rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-white hover:text-yellow-300 transition-colors duration-300 group"
               >
                 <div className="bg-white/20 p-2 rounded-full group-hover:bg-white/30 transition-all duration-300">
@@ -68,7 +69,7 @@ export default function Navbar() {
               </a>
             </div>
 
-            <Link href="https://www.easemytrip.com/">
+            <Link href="https://www.easemytrip.com/" target="__blank">
               <button
                 className={`bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold 
     px-4 py-2 text-sm rounded-full shadow-md transform hover:scale-105 
